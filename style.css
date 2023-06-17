@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color:#7F56F5;
+    padding: 10px 0 200px 0;
+
+}
+.logo{
+    width: 400px;
+    float: left;
+
+}
+.logo img{
+
+
+}
+
+nav{
+    width: 800px;
+    float: left;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+
+    
+
+}
+a:hover{
+    background-color:red;
+   padding: 10px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+
+
+}
+nav ul li a{
+text-decoration: none;  
+color: white;
+font-weight: 600;
+
+}
+/* this is banner section*/
+.banner{
+background-color:#7F56F5;
+padding: 100px 0;
+text-align: center;
+color: white;
+}
+.banner h1{
+    margin: 0;
+    font-size: 50px;
+}
+#but{
+    padding: 10px;
+    background-color: blue;
+}
+.blog-item{
+    
+}
+.single-item{
+    margin: 70px 0;
+    overflow: hidden;
+}
+.single-text{
+    width: 50%;
+    float: left;
+}
+.text{
+    padding: 0 50px 0 0;
+}
+.single-text img{}
+.single-text h1{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.single-text p{}
+.single-photo{
+    width: 50%;
+    float: left;
+}
+.single-text button{
+    border: 2px solid rgb(231, 12, 118);
+    background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    color:white;
+    font-size: 17px;
+}
+.single-photo img{}
+
