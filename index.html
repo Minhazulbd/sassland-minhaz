@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>webpage</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="imf/favicon/favicon-32x32.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.ico">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
+                <a href="index.html">
                 <img src="img/logo.png" alt="">
+            </a>
             </div>
             <nav>
                 <ul >
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Vlog</a></li>
-                    <li><a href="#">Survices</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#vlog">Vlog</a></li>
+                    <li><a href="#survices">Survices</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,8 +42,8 @@
     </section>
     <!-- main section start -->
     <main class="container">
-        <div class="blog-item">
-            <div class="single-item">
+        <div  class="blog-item">
+            <div id="home" class="single-item">
                 <div class="single-text">
                     <div class="text">
                     <img src="img/1.png" alt="">
@@ -48,7 +57,7 @@
                 </div>
             </div>
             <!--single item 2-->
-            <div class="single-item  ">
+            <div id="about" class="single-item  ">
                 <div class="single-photo">
                     <img src="img/process_2.png" alt="">
                 </div>
@@ -63,7 +72,7 @@
                 
             </div>
             <!--item-3-->
-            <div class="single-item">
+            <div id="contact" class="single-item">
                 <div class="single-text">
                     <div class="text">
                     <img src="img/3.png" alt="">
@@ -77,7 +86,7 @@
                 </div>
             </div>
             <!--item-4-->
-            <div class="single-item  ">
+            <div id="vlog" class="single-item  ">
                 <div class="single-photo">
                     <img src="img/process_4.png" alt="">
                 </div>
@@ -93,7 +102,7 @@
                 
             </div>
             <!--item-5-->
-            <div class="single-item">
+            <div id="survices" class="single-item">
                 <div class="single-text">
                     <div class="text">
                     <img src="img/5.png" alt="">
@@ -111,7 +120,57 @@
 
         </div>
     </main>
-    
+    <footer>
+        <div class="container">
+            <div class="footer-item-parent">
+                <div class="footer-item">
+                    <img src="img/logo2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptate tempora modi sapiente cum, aperiam fugiat iure molestias hic amet.</p>
+                </div>
+                <div class="footer-item">
+                    <h5>About Us</h5>
+                    
+                        <li><a href="">Company</a></li>
+                        <li><a href="">Leadership</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Wavelength</a></li>
+                        <li><a href="">Delivary</a></li>
+                   
+                </div>
+                <div class="footer-item">
+                    <h5> Workflow Solutin</h5>
+                    
+                        <li><a href="">Company</a></li>
+                        <li><a href="">Leadership</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Wavelength</a></li>
+                        <li><a href="">Delivary</a></li>
+                 
+                </div>
+                <div class="footer-item">
+                    <h5>Team Solution</h5>
+                    
+                        <li><a href="">Company</a></li>
+                        <li><a href="">Leadership</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Wavelength</a></li>
+                        <li><a href="">Delivary</a></li>
+                   
+                </div>
+                
+
+            </div>
+            <img src="img/footer_bg.png" alt="Sassland footer image">
+        </div>
+
+    </footer>
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-angles-up"></i>
+</button>
+    <script src="js/app.js"></script>
+    <script src="https://kit.fontawesome.com/72ffc4a6a2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
